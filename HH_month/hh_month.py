@@ -64,7 +64,7 @@ if __name__ == '__main__':
             vacancies += get_page(START_TIME)
         except Exception as e:
             print(e)
-            with open('backup.json', 'w') as file:
+            with open('august.json', 'w') as file:
                 json.dump(vacancies, file)
                 break
         START_TIME += timedelta(hours=1)

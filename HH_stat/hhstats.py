@@ -100,7 +100,7 @@ def main():
 
     result = {}
 
-    LINK_TEMPLATE = "https://stats.hh.ru/{}#hhindex[type]=comparison&hhindex[profarea][]=all&hhindex[profarea][]=1&hhindex[profarea][]=8&hhindex[profarea][]=11&hhindex[active]=true&vacancies[type]=comparison&vacancies[profarea][]=all&vacancies[profarea][]=1&vacancies[profarea][]=8&vacancies[profarea][]=11&vacancies[active]=true&resumes[type]=comparison&resumes[profarea][]=all&resumes[profarea][]=1&resumes[profarea][]=8&resumes[profarea][]=11&resumes[active]=true"
+    LINK_TEMPLATE = "https://stats.hh.ru/#hhindex%5Bactive%5D=true&hhindex%5Btype%5D=comparison&hhindex%5Bprofarea%5D%5B%5D=all&hhindex%5Bprofarea%5D%5B%5D=2&hhindex%5Bprofarea%5D%5B%5D=4&hhindex%5Bprofarea%5D%5B%5D=11&hhindex%5Bprofarea%5D%5B%5D=13&hhindex%5Bprofarea%5D%5B%5D=14&hhindex%5Bprofarea%5D%5B%5D=22&hhindex%5Bprofarea%5D%5B%5D=24&vacancies%5Bactive%5D=true&structureResumes%5Bactive%5D=true&structureVacancies%5Bactive%5D=true&dynamicResumes%5Bactive%5D=true&dynamicVacancies%5Bactive%5D=true&dynamic-vacancies%5Bdynamic-vacancies%5D=month"
 
     # https://stats.hh.ru/amur_oblast#hhindex[type]=comparison&hhindex[profarea][]=all&hhindex[profarea][]=1&hhindex[profarea][]=8&hhindex[profarea][]=11&hhindex[active]=true&vacancies[type]=comparison&vacancies[profarea][]=all&vacancies[profarea][]=1&vacancies[profarea][]=8&vacancies[profarea][]=11&vacancies[active]=true&resumes[type]=comparison&resumes[profarea][]=all&resumes[profarea][]=1&resumes[profarea][]=8&resumes[profarea][]=11&resumes[active]=true
 
